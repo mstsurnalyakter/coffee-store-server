@@ -143,7 +143,7 @@ run().catch(console.dir);
 
 
 app.get("/",(req, res)=>{
-    res.send("I am how route.")
+    res.send("I am home route.")
 })
 
 app.listen(port,()=>{
